@@ -355,7 +355,7 @@
 
     const payload = {
       fullname: this.fullname.value.trim(),
-      phone:    this.phone.value.trim(),
+      phone:    "'" + this.phone.value.trim(),
       address:  this.address.value.trim(),
       product:  this.product.value.trim(),
       price:    this.price.value.trim(),
